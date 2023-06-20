@@ -1,0 +1,28 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Untitled Node.js project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+  	"remoteUser": "node",
+  	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {},
+		
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"dbaeumer.vscode-eslint",
+				"eamodio.gitlens",
+				"formulahendry.auto-close-tag",
+				"GitHub.copilot",
+				"leodevbro.blockman",
+				"mikestead.dotenv",
+				"shardulm94.trailing-spaces",
+				"tyriar.lorem-ipsum",
+				"wix.vscode-import-cost"
+			]
+		}
+  	}
+}
